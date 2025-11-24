@@ -32,7 +32,7 @@ if "job_location" not in st.session_state: st.session_state.job_location = "Remo
 # ---------------- STYLES ---------------- #
 st.markdown("""
 <style>
-#MainMenu, footer, header {visibility: hidden;}
+#MainMenu, footer, header {visibility: visible;}
 .main .block-container {padding: 0 !important; max-width: 100% !important;}
 section[data-testid="stSidebar"] {width: 280px !important; background-color: #171717 !important;}
 section[data-testid="stSidebar"] > div {padding: 1rem !important;}
