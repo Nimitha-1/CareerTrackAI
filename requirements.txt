@@ -1,0 +1,15 @@
+streamlit>=1.26.0
+langchain-core
+langchain-openai
+langchain-groq
+langchain-google-genai
+python-dotenv
+faiss-cpu
+pypdf
+sentence-transformers
+requests
+numpy
+urllib3>=1.26.0
+beautifulsoup4
+lxml
+html5lib
