@@ -11,6 +11,13 @@ from utils.text_modes import format_response
 from pypdf import PdfReader
 from langchain_core.messages import SystemMessage, HumanMessage
 
+# Load keys from Streamlit secrets
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+os.environ["GOOGLE_API_KEY"] = st.secrets.get("GOOGLE_API_KEY", "")
+os.environ["TAVILY_API_KEY"] = st.secrets["TAVILY_API_KEY"]
+os.environ["SERPER_API_KEY"] = st.secrets["SERPER_API_KEY"]
+
 # ---------------- CONFIG ---------------- #
 st.set_page_config(page_title="CareerTrackAI", layout="wide", initial_sidebar_state="expanded")
 load_dotenv()
