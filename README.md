@@ -26,5 +26,5 @@ CareerTrackAI is an AI-powered career assistant built with Streamlit. It helps u
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/username/CareerTrackAI.git
+git clone https://github.com/Nimitha-1/CareerTrackAI.git
 cd CareerTrackAI
